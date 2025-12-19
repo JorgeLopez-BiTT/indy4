@@ -1,20 +1,29 @@
-import { test, expect } from '@playwright/test';
-import ContactPage from '../pages/contact.page';
-import { faker } from '@faker-js/faker';
+import {test, expect} from '@playwright/test'
 
-test.describe('Contact', () => {
-  let contactPage: ContactPage;
+test.describe('test the contact page', () =>{
+ 
+  test('fill in page', async({page})=>{
 
-  test('Fill contact form and verify success message', async ({ page }) => {
-    contactPage = new ContactPage(page);
+       await page.goto('/contact/')
 
-    // open contact page
-    await contactPage.navigate()
 
-    //  fill out the input fields and submit
-    await contactPage.submitForm(faker.name.findName(), faker.internet.email(), faker.phone.number(), faker.lorem.paragraphs(2));
+       await page.getByRole('textbox',{name : 'name'}).fill('Jorge')
 
-    // verify success message
-    await expect(contactPage.successTxt).toHaveText('Thanks for contacting us! We will be in touch with you shortly')
+       await page.getByRole('textbox',{name : 'Email'}).fill('cexetor@gmail.com')
+
+       await page.getByRole('textbox',{name : 'Phone'}).fill('4554455454')
+       
+       await page.getByRole('textbox',{name : 'Message'}).fill('put some data')
+
+       await page.getByRole('button', {name : 'Sublmit'}).click()
+
+       const alert = await page.getByRole('alert').textContent()
+
+       console.log(alert?.trim())
+ 
+
+
   })
+
+
 })
