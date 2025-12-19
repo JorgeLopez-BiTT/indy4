@@ -1,0 +1,178 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "Skip to content" [ref=e3] [cursor=pointer]:
+      - /url: "#zak-content"
+    - banner [ref=e4]:
+      - generic [ref=e7]:
+        - generic [ref=e9]:
+          - link "Practice E-Commerce Site" [ref=e10] [cursor=pointer]:
+            - /url: https://practice.sdetunicorns.com/
+            - img "Practice E-Commerce Site" [ref=e11]
+          - generic:
+            - paragraph [ref=e12]:
+              - link "Practice E-Commerce Site" [ref=e13] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/
+            - paragraph [ref=e14]: SDET Unicorns
+        - generic [ref=e15]:
+          - navigation [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - link "Home" [ref=e19] [cursor=pointer]:
+                  - /url: https://practice.sdetunicorns.com/
+              - listitem [ref=e20]:
+                - link "About" [ref=e21] [cursor=pointer]:
+                  - /url: https://practice.sdetunicorns.com/about/
+              - listitem [ref=e22]:
+                - link "Shop" [ref=e23] [cursor=pointer]:
+                  - /url: https://practice.sdetunicorns.com/shop/
+              - listitem [ref=e24]:
+                - link "Blog" [ref=e25] [cursor=pointer]:
+                  - /url: https://practice.sdetunicorns.com/blog/
+              - listitem [ref=e26]:
+                - link "Contact" [ref=e27] [cursor=pointer]:
+                  - /url: https://practice.sdetunicorns.com/contact/
+              - listitem [ref=e28]:
+                - link "My account" [ref=e29] [cursor=pointer]:
+                  - /url: https://practice.sdetunicorns.com/my-account/
+          - generic [ref=e30]:
+            - link [ref=e32] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e33]
+            - listitem [ref=e36]:
+              - link "0" [ref=e37] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/cart/
+                - img [ref=e38]
+                - generic [ref=e40]: "0"
+          - link "Courses" [ref=e43] [cursor=pointer]:
+            - /url: https://sdetunicorns.com/courses
+    - generic [ref=e46]:
+      - heading "My account" [level=1] [ref=e48]
+      - navigation "Breadcrumbs" [ref=e50]:
+        - list [ref=e51]:
+          - listitem [ref=e52]:
+            - link "Home" [ref=e53] [cursor=pointer]:
+              - /url: https://practice.sdetunicorns.com/
+            - text: /
+          - listitem [ref=e54]: My account
+    - generic [ref=e57]:
+      - main [ref=e58]:
+        - article [ref=e59]:
+          - generic [ref=e62]:
+            - generic [ref=e63]:
+              - heading "Login" [level=2] [ref=e64]
+              - generic [ref=e65]:
+                - paragraph [ref=e66]:
+                  - generic [ref=e67]:
+                    - text: Username or email address *
+                    - generic [ref=e68]: Required
+                  - textbox "Username or email address Required" [ref=e69]
+                - paragraph [ref=e70]:
+                  - generic [ref=e71]:
+                    - text: Password *
+                    - generic [ref=e72]: Required
+                  - generic [ref=e73]:
+                    - textbox "Password Required" [ref=e74]
+                    - button "Show password" [ref=e75] [cursor=pointer]
+                - paragraph [ref=e76]:
+                  - generic [ref=e77]:
+                    - checkbox "Remember me" [ref=e78]
+                    - text: Remember me
+                  - button "Log in" [ref=e79] [cursor=pointer]
+                - paragraph [ref=e80]:
+                  - link "Lost your password?" [ref=e81] [cursor=pointer]:
+                    - /url: https://practice.sdetunicorns.com/my-account/lost-password/
+            - generic [ref=e82]:
+              - heading "Register" [level=2] [ref=e83]
+              - generic [ref=e84]:
+                - paragraph [ref=e85]:
+                  - generic [ref=e86]:
+                    - text: Username *
+                    - generic [ref=e87]: Required
+                  - textbox "Username Required" [ref=e88]
+                - paragraph [ref=e89]:
+                  - generic [ref=e90]:
+                    - text: Email address *
+                    - generic [ref=e91]: Required
+                  - textbox "Email address Required" [ref=e92]
+                - paragraph [ref=e93]:
+                  - generic [ref=e94]:
+                    - text: Password *
+                    - generic [ref=e95]: Required
+                  - generic [ref=e96]:
+                    - textbox "Password Required" [ref=e97]
+                    - button "Show password" [ref=e98] [cursor=pointer]
+                - paragraph [ref=e99]:
+                  - button "Register" [ref=e100] [cursor=pointer]
+      - complementary [ref=e101]:
+        - search [ref=e104]:
+          - generic [ref=e105]:
+            - img [ref=e107]
+            - generic [ref=e109]: "Search for:"
+            - searchbox "Search for:" [ref=e110]
+        - generic [ref=e111]:
+          - heading "Recent Posts" [level=2] [ref=e112]
+          - list [ref=e113]:
+            - listitem [ref=e114]:
+              - link "IFrame Sample" [ref=e115] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/iframe-sample/
+            - listitem [ref=e116]:
+              - link "Successful Marketing Ads for Your Business" [ref=e117] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/successful-marketing-ads-for-your-business/
+            - listitem [ref=e118]:
+              - link "Let’s Building Your Business from Scratch" [ref=e119] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/lets-building-your-business-from-scratch/
+            - listitem [ref=e120]:
+              - link "The Best Place to Invest Your Money" [ref=e121] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/the-best-place-to-invest-your-money/
+            - listitem [ref=e122]:
+              - link "The Big Seminar for Your Right Investment" [ref=e123] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/the-big-seminar-for-your-right-investment/
+    - contentinfo [ref=e124]:
+      - generic [ref=e127]:
+        - paragraph [ref=e132]: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit feugiat sit purus varius. Non in turpis tincidunt nulla. Condimentum ultrices nunc odio ante.
+        - generic [ref=e134]:
+          - heading "Quick Links" [level=2] [ref=e135]
+          - list [ref=e137]:
+            - listitem [ref=e138]:
+              - link "Home" [ref=e139] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/
+            - listitem [ref=e140]:
+              - link "About" [ref=e141] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/about/
+            - listitem [ref=e142]:
+              - link "Blog" [ref=e143] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/blog/
+            - listitem [ref=e144]:
+              - link "Contact" [ref=e145] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/contact/
+            - listitem [ref=e146]:
+              - link "Support Form" [ref=e147] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/support-form/
+        - generic [ref=e149]:
+          - heading "Latest Posts" [level=2] [ref=e150]
+          - list [ref=e151]:
+            - listitem [ref=e152]:
+              - link "IFrame Sample" [ref=e153] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/iframe-sample/
+            - listitem [ref=e154]:
+              - link "Successful Marketing Ads for Your Business" [ref=e155] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/successful-marketing-ads-for-your-business/
+            - listitem [ref=e156]:
+              - link "Let’s Building Your Business from Scratch" [ref=e157] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/lets-building-your-business-from-scratch/
+        - generic [ref=e159]:
+          - heading "Contact Us" [level=2] [ref=e160]
+          - generic [ref=e161]:
+            - paragraph [ref=e162]: "Ph. : +(123) 456-7890"
+            - paragraph [ref=e163]: "Email : first.last@demos.com"
+            - paragraph [ref=e164]: "Loc : Moon Street , 446 Jupiter"
+            - paragraph [ref=e165]: "Open : 9AM – 6PM (Mon – Fri)"
+      - paragraph [ref=e170]:
+        - text: Copyright © 2020
+        - link "SDET Unicorns" [ref=e171] [cursor=pointer]:
+          - /url: https://sdetunicorns.com/
+  - status [ref=e172]
+```
