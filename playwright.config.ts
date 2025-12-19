@@ -30,7 +30,7 @@ const config: PlaywrightTestConfig = {
   /* Opt out of parallel tests on CI. */
   workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-  reporter: [['allure-playwright'], ['line']],
+  reporter: [['allure-playwright', {outputFolder: 'test-results'}], ['line']],
 
   globalSetup: require.resolve('./utils/global-setup'),
 
@@ -42,9 +42,9 @@ const config: PlaywrightTestConfig = {
     baseURL: 'https://practice.sdetunicorns.com',
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
-    trace: 'retain-on-failure',
+    trace: 'on',
 
-    storageState: 'loggedInState.json'
+    // storageState: 'loggedInState.json'
   },
 
   /* Configure projects for major browsers */
